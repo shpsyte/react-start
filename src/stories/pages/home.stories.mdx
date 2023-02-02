@@ -1,0 +1,96 @@
+import { Meta } from '@storybook/addon-docs'
+import Code from './assets/code-brackets.svg'
+import Ds from './assets/colors.svg'
+
+<Meta title="Pages/Home" />
+
+<img src={Ds} alt="code" />
+
+<style>
+  {`
+  * {
+    font-family: 'Inter', sans-serif !important;
+    
+  }
+
+  .dont {
+     
+      font-size: 1.05rem !important;
+     
+  }
+   
+ 
+  `}
+</style>
+
+# Welcome to Design System
+
+<p className="text-md">
+  Design System helps you build UI pages using our pre-build components in
+  isolation from your app's business logic, data, and context. Save these UI
+  states as **stories** to revisit during development, testing, or QA.
+</p>
+
+<br />
+
+<ul className="dont">
+  <li className="dont">
+    You can't build an Component out of this context if is is a sharable.
+  </li>
+  <li className="dont">
+    You can build a Page as component - You can't add colors, fonts, etc. that
+    are not part of the design system
+  </li>
+  <li className="dont">You can't add business logic to the design system</li>
+  <li className="dont">You can't add data to the design system</li>
+</ul>
+
+---
+
+<img src={Code} alt="code" />
+
+# Guidelines while coding
+
+Although a design system is used to build the UI of the app and it describes a set of rules we also have a guideline that help you build better code.
+
+## Kiss:
+
+Keep it Simple and Stupid, do not over-engineer; (really do not).
+
+## Clean Code:
+
+Your code must be easy to understand and easy to maintain.
+
+## YAGN:
+
+You Aren't Gonna Need It (avoid creating extra complexity that you assume you may need in the future)
+
+## DRY:
+
+Do not Repeat Yourself. Be aware we have a bunch of functions and its correct layer to existing.
+
+## Small PR:
+
+Small Pull Request is the best way to ensure the health and quality of our code.
+
+## Code Review:
+
+While reviewing a colleague's Pull Request pay attention to all this important stuff.
+
+## Peer Code:
+
+Big task at hand? Start it off with brainstorming with a colleague.
+
+## WIP:
+
+Big holiday coming? Awesome!, Just do not forget to push your code to the repo.
+
+## Commits Pattern:
+
+We use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) pattern to ensure a consistent commit history.
+
+---
+
+# Reach out
+
+If you have any question about it, please reach out to the Front-End team.
